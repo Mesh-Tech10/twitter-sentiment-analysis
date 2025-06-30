@@ -1077,10 +1077,10 @@ MIT License - see LICENSE file for details
 5. Create Pull Request
    
 # Contact
-Email: meshwapatel10@gmail.com
-LinkedIn: linkedin.com/in/meshwaa
-Twitter: @meshwa1096
-GitHub: github.com/Mesh-Tech10
+Email: meshwapatel10@gmail.com\
+LinkedIn: linkedin.com/in/meshwaa\
+Twitter: @meshwa1096\
+GitHub: github.com/Mesh-Tech10\
 
 # Acknowledgments
 Twitter API for data access\
