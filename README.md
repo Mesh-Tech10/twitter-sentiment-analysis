@@ -1080,13 +1080,13 @@ MIT License - see LICENSE file for details
 Email: meshwapatel10@gmail.com\
 LinkedIn: linkedin.com/in/meshwaa\
 Twitter: @meshwa1096\
-GitHub: github.com/Mesh-Tech10\
+GitHub: github.com/Mesh-Tech10
 
 # Acknowledgments
 Twitter API for data access\
 Transformers library by Hugging Face\
 scikit-learn community\
-Open source NLP community\
+Open source NLP community
 
 This project demonstrates comprehensive sentiment analysis capabilities for social media monitoring, brand management, and public opinion research.
 
