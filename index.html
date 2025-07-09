@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sentiment Analysis Project</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 10px; }
+        .section { margin: 30px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+        .screenshot { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; }
+        .code-block { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🐦 Twitter Sentiment Analysis</h1>
+        <p>Advanced NLP project analyzing social media sentiment using Python</p>
+    </div>
+
+    <div class="section">
+        <h2>📊 Project Overview</h2>
+        <p>This project analyzes Twitter data to understand public sentiment using natural language processing techniques...</p>
+        <!-- Add your project screenshots here -->
+        <img src="dashboard_screenshot.png" alt="Dashboard" class="screenshot">
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Technologies Used</h2>
+        <ul>
+            <li>Python 3.8+</li>
+            <li>Natural Language Processing (NLTK, TextBlob, VADER)</li>
+            <li>Data Visualization (Matplotlib, Seaborn, Plotly)</li>
+            <li>Twitter API Integration</li>
+            <li>Machine Learning & Statistics</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📈 Key Features</h2>
+        <ul>
+            <li>Real-time Twitter data collection</li>
+            <li>Multi-algorithm sentiment analysis</li>
+            <li>Interactive visualizations</li>
+            <li>Comprehensive reporting</li>
+            <li>Export capabilities</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>💻 Code Example</h2>
+        <div class="code-block">
+            <pre><code># Sentiment Analysis Example
+from textblob import TextBlob
+
+def analyze_sentiment(text):
+    blob = TextBlob(text)
+    polarity = blob.sentiment.polarity
+    
+    if polarity > 0.1:
+        return 'Positive'
+    elif polarity < -0.1:
+        return 'Negative'
+    else:
+        return 'Neutral'</code></pre>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔗 Links</h2>
+        <p>
+            <a href="https://github.com/yourusername/twitter-sentiment-analysis" target="_blank">📂 View Code on GitHub</a><br>
+            <a href="https://your-streamlit-app.streamlit.app" target="_blank">🚀 Live Demo</a><br>
+            <a href="https://colab.research.google.com/drive/your-notebook-id" target="_blank">📓 Jupyter Notebook</a>
+        </p>
+    </div>
+</body>
+</html>
