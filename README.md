@@ -163,7 +163,7 @@ Redis (for caching and streaming)\
 # Installation Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/twitter-sentiment-analysis.git
+git clone https://github.com/mesh-tech10/twitter-sentiment-analysis.git
 cd twitter-sentiment-analysis
 ```
 2. Create virtual environment
@@ -1050,21 +1050,6 @@ competitor_analysis = brand_analyzer.compare_with_competitors(['Competitor1', 'C
 - Competitor Analysis: Compare brand performance
 - Influencer Identification: Find key opinion leaders
 - ROI Tracking: Measure campaign sentiment impact
-
-# Future Enhancements
-## Planned Features
- Multi-modal analysis (text + images)\
- Real-time translation and analysis\
- Integration with more social platforms\
- Advanced visualization with AR/VR\
- Predictive sentiment modeling\
- Custom model training interface\
-
-## Research Areas
- Cross-cultural sentiment understanding\
- Bias detection and mitigation\
- Explainable AI for sentiment decisions\
- Federated learning for privacy-preserving analysis\ 
 
 # License
 MIT License - see LICENSE file for details

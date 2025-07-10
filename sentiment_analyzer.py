@@ -1,5 +1,4 @@
 # Twitter Sentiment Analysis Project
-# A beginner-friendly implementation
 
 import tweepy
 import pandas as pd
@@ -50,7 +49,6 @@ class TwitterSentimentAnalyzer:
     def setup_twitter_api(self, consumer_key, consumer_secret, access_token, access_token_secret):
         """
         Set up Twitter API connection.
-        You need to get these from Twitter Developer Portal.
         """
         try:
             # Authenticate with Twitter
@@ -376,7 +374,7 @@ def main():
     """
     Main function to run the sentiment analysis.
     """
-    print("🐦 Welcome to Twitter Sentiment Analysis!")
+    print("Welcome to Twitter Sentiment Analysis!")
     print("This tool will help you analyze public opinion on any topic.\n")
     
     # Initialize analyzer
@@ -391,7 +389,7 @@ def main():
     
     if choice == "2":
         # Real Twitter data option
-        print("\n🔑 Setting up Twitter API...")
+        print("\n Setting up Twitter API...")
         print("You'll need API credentials from developer.twitter.com")
         
         api_key = input("Enter your Twitter API Key: ").strip()
@@ -423,34 +421,34 @@ def main():
             analyzer.load_sample_data()
     else:
         # Sample data option (default)
-        print("📝 Using sample data for demonstration...")
+        print("Using sample data for demonstration...")
         analyzer.load_sample_data()
     
     # Analyze the tweets
-    print("\n🧠 Starting sentiment analysis...")
+    print("\n Starting sentiment analysis...")
     analyzer.analyze_tweets()
     
     # Generate report
-    print("\n📊 Generating comprehensive report...")
+    print("\n Generating comprehensive report...")
     results_df = analyzer.generate_report()
     
     # Create visualizations
-    print("\n📈 Creating beautiful visualizations...")
+    print("\n Creating beautiful visualizations...")
     analyzer.create_visualizations()
     
     # Save results
-    print("\n💾 Saving results to file...")
+    print("\n Saving results to file...")
     analyzer.save_results()
     
-    print("\n🎉 Analysis complete! Check the generated files and visualizations.")
-    print("\n💡 Next steps:")
+    print("\n Analysis complete! Check the generated files and visualizations.")
+    print("\n Next steps:")
     print("   • Look at the generated CSV file with your results")
     print("   • Check out the beautiful charts that were created")
     print("   • Try different search terms or topics")
     print("   • Experiment with the code to add new features!")
     
     if choice == "1":
-        print("\n🚀 Ready for real data?")
+        print("\n Ready for real data?")
         print("   1. Get free Twitter API access at developer.twitter.com")
         print("   2. Run this program again and choose option 2")
         print("   3. Analyze any topic you're interested in!")
