@@ -158,7 +158,7 @@ twitter-sentiment-analysis/
 # Prerequisites
 Twitter Developer Account (for API access)\
 MongoDB or PostgreSQL\
-Redis (for caching and streaming)\
+Redis (for caching and streaming)
 
 # Installation Steps
 1. Clone the repository
